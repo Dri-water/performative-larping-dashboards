@@ -9,14 +9,14 @@ plan to avoid confusing a valid 3D exhibit with sensory overload.
 
 Make a spectacle manifest: each row names a visible system, its frame region,
 geometry/material treatment, movement, and response at the climax. For this preset,
-plan **one monumental hero and at least three substantial secondary systems**, plus
+aim for **one monumental hero and at least three substantial secondary views of real data**, plus
 fine instrumental texture and optical atmosphere. A secondary system is visually
 substantial, not a tiny status light, another line of text, or more identical dust.
 
-Each system also needs a supposed job, an input/trigger and an observable output.
-Read [apparent work](apparent-work.md). Several impressive objects moving together
+Each system needs a real source, an observed input/trigger and an inspectable output.
+Read [real work](real-work.md). Several impressive objects moving together
 can still feel purposeless. Let comparison, inspection, routing, processing and
-completion produce the visual activity; use atmosphere to support it.
+completion events produce the visual activity; use atmosphere to support it.
 
 Example financial manifestation:
 
@@ -30,7 +30,9 @@ Example financial manifestation:
 | Technical surface | Tick friezes, local cross-sections, terminal glyphs, tiny schemas | Scanners and propagating highlights | Several regions respond in sequence |
 | Optics / depth | Reflective mass, local haze, near/far layers | Moving light and restrained camera | Interior light reveals a previously hidden volume |
 
-This is an example, not a requirement to copy a canyon. For another subject choose
+Every row must map to available evidence. Do not depict execution, cross-venue
+routing, volatility or price changes without the corresponding source. This is
+an example, not a requirement to copy a canyon. For another subject choose
 equally substantial systems. The crucial change is multiple visually different
 mechanisms operating in one composition. Do not substitute seven varieties of particles.
 
@@ -49,7 +51,8 @@ room belongs around focal contrast, not where a promised system was never built.
 
 ## A transformation must change the shot
 
-Compare pre-event and peak frames at phone-thumbnail size. The composition or
+For a genuine significant event or inspection transition, compare before/after
+frames at phone-thumbnail size. No scheduled fake event is allowed. The composition or
 silhouette must visibly change. A 0.1-radian tilt, a slight spacing increase, and
 brighter lines are usually insufficient for the headline event.
 
@@ -77,6 +80,7 @@ Render the hero-only composition before spending the bulk of the effort on HUD
 copy, selectors, README prose, or tests. Then build the complete performance and
 inspect it again. If the result is coherent but restrained, add the missing
 substantial systems or rebuild the transformation; don't declare that the lower bar
-was the intent. With no user-imposed time limit, a failed visual gate means another
+was the intent. Data fidelity takes priority: a quiet or unavailable source never licenses fake
+activity. With no user-imposed time limit, a failed visual gate means another
 targeted build/render pass, not an invented deadline. If genuinely blocked or
 explicitly budget-limited, report the artistic result as incomplete.

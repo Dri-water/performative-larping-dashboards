@@ -12,13 +12,19 @@ separate from the versions actually exercised.
 For visual changes run the example build and verification. Inspect desktop and
 portrait screenshots, not just the exit code. Include a paused frame and disclose
 whether video export or physical-device behavior was tested. Preserve the seed and
-shared simulation clock. Do not add credentials, copyrighted reference screenshots,
+captured source trace and presentation clock. Do not add credentials, copyrighted reference screenshots,
 unlicensed models, or misleading live/P&L claims.
 
-The current reference is `examples/xenolith/`. Review a complete performance cycle,
-the hero without HUD text, and captures at multiple phases. Improvements to
-functionality do not compensate for an unimpressive composition. Finance, weather,
-science, and pure abstract spectacle are as relevant as agent interfaces.
+New dashboards must visualize actual observed work and answer a useful question.
+Include the source-to-visual contract, measured traffic audit, count reconciliation,
+one inspectable source-backed outcome, and quiet/stale/disconnected behavior.
+Never manufacture throughput or outcomes to improve a capture. Synthetic fixtures
+may support development tests but cannot substantiate a real-data delivery.
+
+The existing examples are legacy synthetic rendering studies; none currently
+validates the new source-connected requirement. Preserve that distinction when
+reusing their visual techniques. Review representative busy and quiet intervals,
+not only an attractive staged performance.
 
 Do not label a reused scene with different text a new visual concept. For a
 transfer study, change the dominant shape, spatial organization, or transformation.

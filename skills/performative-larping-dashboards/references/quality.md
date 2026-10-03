@@ -6,12 +6,15 @@ can certify subjective quality or guarantee an audience reaction.
 
 ## Gates that cannot be averaged away
 
-**0. The apparent-work gate.** In a silent sequence, can you identify something
+**0. The truth and usefulness gate.** Trace animated objects and outcomes back
+to real source records. Reconcile counts, units, lineage and timestamps. Can the
+user answer the stated question or inspect a bottleneck or result? A labeled
+simulation is not a real-data delivery. In a silent sequence, can you identify something
 arriving, being evaluated/transformed, and producing a consequence? Follow one
 identity across views and inspect the result it leaves behind. The viewer need
 not understand the domain, but should infer the verbs. Random telemetry, perpetual
 spinners and decorative particle motion cannot pass this gate. See
-[apparent work](apparent-work.md). A hero-only screenshot cannot establish this.
+[real work](real-work.md). A hero-only screenshot cannot establish this.
 
 **1. The silhouette gate.** Hide all copy. Does this still look like a designed,
 expensive visual object or environment? A small primitive, a stock chart grid,
@@ -25,10 +28,11 @@ occlusion, and material contrast? Raw polygon/particle counts are not evidence.
 is it a decoration inside a normal dashboard? A beautiful 3D thumbnail inside
 ordinary cards still fails the default maximalist brief.
 
-**4. The performance gate.** Watch a continuous sequence. Is something always
-developing in several parts of the frame? Do rhythms differ? Is there a recurring
-hero transformation beyond rotation, number ticking, or a color change? Inspect
-at least one full authored cycle; the same impressive still at every timestamp fails.
+**4. The performance gate.** Watch a representative busy source interval. Are
+real transformations visible across connected views? Do the visual rhythms reveal
+activity rather than arbitrary oscillation? Then inspect a quiet interval: arrivals
+stop, retained history ages, and stale/disconnected status is honest. Do not demand
+a recurring climax from a source that does not produce one.
 
 **5. The overload-with-intent gate.** Are there multiple layers of rewarding detail
 without every layer competing at the same brightness? The experience can be
@@ -44,7 +48,8 @@ and specific repairs. A user's “still boring” overrides an internal passing 
 
 ## Evidence to keep
 
-- Actual opening, build, climax, and recovery captures with viewport and timestamps.
+- Source-backed busy and quiet captures, with viewport, source interval and presentation timestamps.
+- Source-to-visual mapping, reconciliation evidence and a useful inspected result.
 - Continuous playback evidence, plus an inspected contact sheet when useful.
 - Comparison of hero-only and complete composition.
 - At least desktop and portrait if social delivery is part of the brief.
@@ -54,9 +59,10 @@ and specific repairs. A user's “still boring” overrides an internal passing 
 ## Engineering checks, separate from art direction
 
 - Pause freezes geometry, shaders, camera, traces, and telemetry; resume has no jump.
-- Fixed time/seed/mode reconstructs the same state and frame.
+- A fixed captured trace, cursor and layout seed reconstruct the same state and frame.
 - Scenario/inspection controls affect the promised elements.
-- Fictional telemetry is labeled; theatrical traces are not evidence of real execution.
+- Live, delayed and replay states are explicit; synthetic fixtures are test-only.
+- No invented decisions/progress/results. Duplicates, gaps, drops and stale data remain observable.
 - Reduced-motion output is a rich held frame. No rapid full-screen strobe.
 - Hidden tabs avoid rendering. Text/controls remain operable at target sizes.
 - Fallback is visible and honestly labeled; missing GPU is not falsely “live.”

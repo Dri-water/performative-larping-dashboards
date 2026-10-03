@@ -9,7 +9,7 @@ Use an npm lockfile and local bundled modules. For a literal single-file handoff
 bundle dependencies and embed assets with an appropriate build step; do not call a
 file self-contained if it fetches a CDN, web font, or remote GLB.
 
-One module defines scenario state. One owns the renderer and teardown. The UI reads
+A source adapter and event reducer define observed state. One owns the renderer and teardown. The UI reads
 the same state. Keep geometry creation out of requestAnimationFrame. Reuse vectors
 and typed arrays for dense effects. Use a ResizeObserver for container size.
 

@@ -1,13 +1,15 @@
 # Spectacle direction
 
 The product is the experience of witnessing impossibly powerful technology.
-Usefulness may be incidental. Optimize for an arresting silhouette, depth,
+The display must reveal real activity and answer a useful question. Optimize for an arresting silhouette, depth,
 technical intricacy, compelling motion, and the promise that there is always more
 to see. Excess is the brief; visual hierarchy makes the excess land.
 
 ## Translate subjects into worlds
 
-These are divergent prompts, not skins for the same reactor layout:
+These are visual metaphors, not permission to invent the underlying events.
+Use a transformation only when the source supports it; labels and scales remain
+accurate. These are divergent prompts, not skins for the same reactor layout:
 
 | Subject | Spatial concept | Signature spectacle | Peripheral texture |
 |---|---|---|---|
@@ -16,7 +18,6 @@ These are divergent prompts, not skins for the same reactor layout:
 | Science / weather | Colossal transparent specimen chamber | A volumetric storm folds through moving cross-section planes | Field vectors, spectral waterfalls, scanning reticles, trajectory swarms |
 | Infrastructure | City-sized cathedral of computation | Traffic surges through conduits and physically reconfigures a gate | Rack silhouettes, cable bundles, route maps, diagnostic glyphs |
 | Agent activity | Impossible cognition apparatus | Signals converge, machinery unlocks, and an output wave crosses the system | Specialist stations, memory strata, branching traces |
-| Pure fiction | Non-human navigation instrument | Geometry unfolds into a shape that seems to exceed its containment volume | Invented notation, nested coordinates, impossible distance scales |
 
 Choose a shape family with more ambition than sphere + torus + cards: asymmetric
 ribs, suspended membranes, terraced volumes, interlocking blades, articulated
@@ -29,11 +30,11 @@ do not become authored assets merely by adding bloom.
 1. **At thumbnail size:** one startling silhouette and strong light/dark structure.
 2. **At a glance:** a monumental process is happening; the image has scale and depth.
 3. **After a second:** overlapping structures and instruments reveal how it moves.
-4. **After five seconds:** a staged change transforms the composition and redirects attention.
+4. **After five seconds:** an observed change or inspection reveals structure and redirects attention.
 5. **On inspection:** fittings, marks, traces, engraving, miniatures, and subsidiary
    motion reward curiosity. Not every label needs to be useful.
 
-Do not interpret hierarchy as minimalism. Keep many processes active at once;
+Do not interpret hierarchy as minimalism. Expose several genuinely active processes when available;
 vary contrast, size, rhythm, and position so they form a layered performance.
 
 ## Composition that escapes the dashboard
@@ -48,9 +49,9 @@ frame dimension, peripheral fields extending past it, and foreground occlusion.
 These are tuning ranges, not acceptance metrics. Use asymmetric mass and depth;
 a perfect front-on mandala can feel flat.
 
-One dominant event should temporarily reorganize the screen: topology unfolds,
+A genuine significant event or user inspection can reorganize the screen: topology unfolds,
 a price canyon fractures, a lens separates into layers, or a scan reveals a
-hidden interior. Background motion continues during this event.
+hidden interior. Other observed activity remains visible during this event; quiet sources stay quiet.
 
 ## Materials and light
 

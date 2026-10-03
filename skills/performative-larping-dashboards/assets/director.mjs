@@ -1,4 +1,6 @@
-/** Deterministic stage direction. Copy/adapt to the target project; MIT. */
+/** MIT. Reusable clock/envelope utilities plus a LEGACY SYNTHETIC demo score.
+ * Production operational state must come from real source events.
+ * Never use this generated score as live telemetry or activity. */
 export const clamp = (v, min = 0, max = 1) => Math.min(max, Math.max(min, v));
 export const smooth = (a, b, v) => {
   const x = clamp((v - a) / (b - a));

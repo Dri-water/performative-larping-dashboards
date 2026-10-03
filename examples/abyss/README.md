@@ -1,5 +1,9 @@
 # ABYSS — a fictional exchange visibly processing work
 
+> **Legacy synthetic evidence:** this material predates the real-work requirement.
+> It demonstrates rendering/simulation behavior, not a source-connected useful
+> dashboard. It does not satisfy the current skill's data-fidelity gate.
+
 The earlier finance evaluation looked active but did not sufficiently imply useful
 activity. This revision gives its spectacle a small deterministic order model:
 ingest → compare venues → risk → route → partial fill → clearing receipt.

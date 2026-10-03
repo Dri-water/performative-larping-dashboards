@@ -1,110 +1,99 @@
 ---
 name: performative-larping-dashboards
-description: Create extravagantly cinematic, continuously animated dashboards optimized for visual spectacle, sensory density, awe, and social-media impact. Applies to finance, trading, science, infrastructure, fictional telemetry, and agent systems. Use for over-the-top performative interfaces or Hollywood-style screen graphics; information utility is secondary to the requested visual experience.
+description: Build useful dashboards that turn real activity into extravagant cinematic visualizations. Discover high-traffic flows and dramatize measured transformations, queues, decisions, and outcomes with dense connected visuals. Use for spectacular finance, infrastructure, science, or agent interfaces; never fabricate activity to make a screen look busy.
 license: MIT
 ---
 
 # Performative Larping Dashboards
 
-Build a screen someone would stop scrolling to watch. Treat the brief as production
-design for a film's impossible technology: monumental form, intricate surfaces,
-spatial instrumentation, continuous layered activity, and recurring spectacular
-transformations. The subject can be markets, weather, a build queue, agents, or
-invented nonsense. **Agents, mascots, workstations, and realistic utility are optional.**
-Apparent purpose is essential: the viewer should feel that the system is doing
-work. Design visible inputs, decisions, transformations and consequences before
-adding effects. Spectacle comes from dramatizing that fictional activity.
+Make real work spectacular. The facts, events and transformations must be real;
+the scale, geometry, lighting and visual expression can be wildly exaggerated.
+The dashboard must help someone understand what is happening, locate a bottleneck,
+inspect an outcome or make a decision. Agents are optional. Usefulness and source
+fidelity are required. A beautiful sculpture with invented telemetry fails.
 
-Default ambition is a cinematic set piece. A conventional dashboard with a 3D widget,
-glowing borders, or a particle background does not meet this brief. An isolated
-primitive surrounded by cards fails even when its controls work and tests pass.
+## Discover the work before designing the shot
 
-## Establish the visual contract
+Read [real work](references/real-work.md). Inspect existing data sources,
+instrumentation, schemas and dashboards before adding anything. Identify the
+busiest meaningful flows and the transformations actually observable within them.
+Prefer an existing stream or safe recorded trace; do not generate production
+traffic, submit trades, or start costly work merely to animate the screen.
 
-Read [apparent work](references/apparent-work.md) and
-[spectacle direction](references/art-direction.md), then choose a production
-route from [the maintained toolkit](references/toolkit.md). Use the relevant
-[React](references/react.md), [HTML](references/html.md), or
-[native](references/native.md) recipe. Do not load every platform reference.
+Write a compact production brief:
 
-Write a compact production brief in the target project:
+- **User question:** what should this display help someone understand or do?
+- **Source contract:** source, event identity, timestamps, units, observed stages,
+  freshness, permissions and gaps. Distinguish facts from derived estimates.
+- **Traffic audit:** measured rate, bursts, concurrency, fan-out, latency and
+  available history. Pick rich flows without inventing unobserved stages.
+- **Event → visual mapping:** what each packet, split, merge, surface and output
+  represents; aggregation, sampling and time scaling must be explicit.
+- **Money shot:** how a real transformation becomes a spectacular spatial event.
+- **Capture contract:** live or recorded provenance, target aspect ratios and a
+  representative busy interval plus quiet, stale and disconnected states.
 
-- **Subject → impossible physical metaphor.** A trading engine might be a canyon
-  of order-book strata, a gravitational liquidity engine, or a cathedral of price
-  trajectories. It need not become a spacecraft or agent network.
-- **Supposed job → visible evidence.** Name what enters, what the system does to
-  it, what comes out, and which other view changes as a consequence. Track a few
-  persistent identities; make waits, decisions and results visible.
-- **One-sentence money shot.** Describe the composition, materials, depth, and
-  transformation that would make a silent five-second clip worth sharing.
-- **Shape / material / motion vocabulary.** Commit to specific choices beyond
-  “futuristic,” “premium,” “3D,” “neon,” or “lots of particles.”
-- **Capture contract.** Target aspect ratios, rendered opening/climax/recovery
-  frames, a continuous sequence, and real versus explicitly fictional telemetry.
+If no suitable source is available, build the adapter boundary and an honest
+empty/disconnected state, and identify the missing access. Synthetic fixtures
+belong only in explicit development/test mode and cannot satisfy delivery.
 
-Make creative decisions from the user's direction; do not turn this into a survey.
-Choose established compatible tools in an existing project, otherwise the named
-defaults. Record installed versions, lock dependencies, and disclose fallback
-tradeoffs. A smaller renderer budget must preserve the spectacle concept.
+## Turn the process into the spectacle
 
-## Produce the shot before the dashboard
+Read [spectacle direction](references/art-direction.md), the
+[construction playbook](references/construction.md), and the
+[full-intensity preset](references/full-intensity.md). Choose the named defaults
+from [the maintained toolkit](references/toolkit.md) or compatible existing tools.
+Load the relevant [React](references/react.md), [HTML](references/html.md), or
+[native](references/native.md) recipe rather than every platform reference.
 
-Read [the construction playbook](references/construction.md) and use
-the [full-intensity preset](references/full-intensity.md) for an unrestricted
-spectacle brief: declare a monumental hero and several substantial secondary
-systems before implementation. A large but sparse 3D scene is still insufficient.
-Build and **render** the dominant composition before adding navigation or a grid
-of widgets. A successful
-first shot already has scale, silhouette, material contrast, and foreground /
-midground / background. Hide the HUD: it should still look like a film asset.
+Build a monumental composition with several substantial systems whose roles come
+from the source. Orders can become flowing strata, spans can become branching
+conduits, and actual transformations can unfold into cross-sections. Give objects
+stable identities. Show inputs, observed decisions, partial progress and outputs
+across linked views. Preserve a useful overview and a readable inspector with
+exact values and provenance beneath the exaggerated rendering.
 
-Then accumulate authored detail at several scales. Repeat modules with instancing,
-but vary assemblies, spacing, orientation, material, and local purpose. Build the
-instrumentation into this world through projected labels, cross-sections, contour
-fields, exploded views, ribbons, radial scales, waveform sheets, or volumetric books.
-Choose forms appropriate to the subject. Text and microtype supply texture; only
-the headline state and essential controls need to be immediately decipherable.
+Work at three scales: large process architecture, intermediate assemblies and fine
+instrumentation. Use projected labels, ribbons, contour fields, exploded views,
+waveforms and volumetric books where they express the data. Render the composition
+early. Dense craft, depth and material contrast should survive with the HUD hidden;
+that alone does not establish usefulness or truth.
 
-Read [choreography](references/choreography.md) and stage a continuous performance:
-ambient motion, active processes, instrument sweeps, and a recurring hero event.
-Use a shared clock and a small event model so the spectacle feels connected.
-The process may be entirely fictional, but its visible cause and effect should
-be consistent. A packet arrives, a stage reacts, a result appears, and a related
-view changes. Synchronized glow and unrelated number changes are insufficient.
-Never leave the opening idle or depend on clicks to reveal the impressive part.
+Read [choreography](references/choreography.md). Source events drive semantic
+motion. A transition can be expanded visually, but cannot invent a decision,
+completion, duration, quantity or causal relationship. Use labeled windows,
+aggregates, trails and replay to expose genuine volume. Quiet data stays quiet;
+a fixed cinematic timer must never manufacture a surge, failure or success.
 
-Available implementation aids:
+## Implementation aids
 
-- [Rendering recipes](references/rendering.md): material / bloom pipeline, dense
-  geometry, GPU fields, projection, camera, and common failure repairs.
-- [Optics helper](assets/optics.mjs): copy into a Three.js project for a PMREM
-  environment, directional light, bloom, and output pipeline. Adapt the palette;
-  the helper supplies physical visibility, not the subject or layout.
-- [Director module](assets/director.mjs): reusable seeded randomness, envelopes,
-  pause/seek clock, and an adaptable 24-second example score. Copy and replace its
-  subject-specific names/events; it is not a mandatory agent ontology.
-- [Production](references/production.md): Blender / GLB, Remotion, and MCP handoffs
-  when they improve the requested deliverable. None is universally mandatory.
-- [Capture helper](scripts/capture.mjs): run from a project with Playwright installed
-  to capture desktop/portrait timestamps and actual playback. Use `--help`; the
-  target must implement the documented `?t=` capture contract.
+- [Rendering recipes](references/rendering.md): geometry, GPU fields, optics,
+  projection, camera and repair techniques.
+- [Optics helper](assets/optics.mjs): a Three.js environment, lights and bloom/output
+  baseline. It supplies visibility, not data or meaning.
+- [Director module](assets/director.mjs): reusable envelopes, randomness for layout,
+  and pause/seek utilities. Its synthetic score is a legacy demo only; replace its
+  generated operational state with recorded or live events.
+- [Production](references/production.md): optional Blender/GLB, Remotion and MCP
+  handoffs. Video exports preserve source provenance and display replay speed.
+- [Capture helper](scripts/capture.mjs): desktop/portrait timestamps and playback;
+  implement its documented capture contract against a fixed recorded trace.
 
-## Earn the result in the renderer
+## Verify both truth and spectacle
 
-Read [the visual gates](references/quality.md). Inspect real rendered frames at
-delivery size, thumbnail size, and multiple times. Watch a continuous sequence.
-Functional tests cannot certify impressiveness. Do not give yourself a passing
-aggregate score that excuses a weak hero or dead motion.
-Also follow one work object through the screen: can a viewer infer what happened
-to it? A gorgeous animated sculpture can still fail the intended dashboard illusion.
+Read [the quality gates](references/quality.md). Trace visible objects back to
+source records; reconcile aggregate counts; verify units and event ordering.
+Inspect busy, quiet, disconnected, stale and replay states. Follow one real object
+through observed stages and into a source-backed outcome. Unknown progress stays
+unknown; an actual failure cannot turn into a success for a satisfying ending.
 
-If it looks ordinary, change composition, silhouette, scale, material, or event
-staging before adding more glow. Iterate against the specific observed failure.
-Recompose portrait geometry/camera/labels; do not merely shrink desktop.
+Then inspect real rendered output at delivery and thumbnail sizes and watch a
+representative sequence. If it feels ordinary, improve the visual mapping,
+composition, scale and craft, or choose a richer observed flow. Never add fake
+activity to pass an artistic gate. Recompose portrait rather than shrinking it.
 
-Deliver a working artifact, setup instructions, lockfile, actual screenshots,
-motion evidence, and a short record of checks and limitations. Export edited video
-when requested; motion evidence can otherwise be a local browser recording or
-verified live preview. Keep simulated data labeled, and never represent theatrical
-activity as real trades, returns, or executions. Preserve pause/reduced motion and
-avoid rapid full-screen strobing; the paused frame must retain visual richness.
+Deliver the working artifact, pinned setup, source/adapter contract, actual
+captures and a short record of truth checks, visual critique and limitations.
+Separate live, delayed, replay and synthetic test modes visibly. Preserve pause,
+reduced motion and readable controls; avoid rapid full-screen strobing. Pausing
+the view must not falsely imply that the underlying system has paused.

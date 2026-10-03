@@ -1,5 +1,9 @@
 # Independent skill evaluation
 
+> **Legacy synthetic evidence:** this material predates the real-work requirement.
+> It demonstrates rendering/simulation behavior, not a source-connected useful
+> dashboard. It does not satisfy the current skill's data-fidelity gate.
+
 These are fresh-context agent exercises, not a statistical benchmark across models.
 Evaluators receive a realistic request, the packaged skill, and an isolated output
 directory. They are instructed not to inspect repository examples or previews.

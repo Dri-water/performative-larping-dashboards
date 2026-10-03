@@ -19,7 +19,8 @@ Do not install Blender solely to make a torus.
 
 Use when the deliverable is a rendered film with controlled pacing, camera cuts,
 audio, or exact-frame exports. Keep Remotion package versions aligned. Use
-`@remotion/three` for the 3D layer, and drive simulation time from frame/fps.
+`@remotion/three` for the 3D layer, and drive recorded-trace playback from frame/fps. Label the source interval and speed;
+never generate operational events to fill the edit.
 Do not rely on wall-clock requestAnimationFrame or ordinary CSS animations during
 frame rendering. Await assets before rendering frames.
 

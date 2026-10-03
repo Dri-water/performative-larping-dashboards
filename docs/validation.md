@@ -1,5 +1,9 @@
 # Verification and visual review
 
+> **Legacy synthetic evidence:** this material predates the real-work requirement.
+> It demonstrates rendering/simulation behavior, not a source-connected useful
+> dashboard. It does not satisfy the current skill's data-fidelity gate.
+
 Verified 2026-10-03 on Windows, Node 24.14.1, Three.js 0.186.1, Vite 8.3.2,
 Playwright 1.63.0. Resolved versions are in the example's lockfile.
 

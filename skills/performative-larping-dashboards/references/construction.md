@@ -2,8 +2,8 @@
 
 ## Pass 1 — a shot, not a layout
 
-First name the fictional job and its input → transformation → output. Read
-[apparent work](apparent-work.md). Assign the dominant forms roles in that process;
+First audit the real source and name the useful question and observed input → transformation → output. Read
+[real work](real-work.md). Assign the dominant forms roles in that process;
 the shot should depict an instrument performing work, not merely an impressive object.
 
 Select a spatial metaphor and draw its largest masses first. Set the delivery
@@ -48,23 +48,23 @@ to projected 3D positions; keep other instrument clusters intentionally screen-s
 Use collision-free lanes and leader lines instead of letting floating labels pile up.
 
 Typography remains outside scene bloom. Decorative microtype may be dense and
-cryptic; functional controls and simulated-data disclosure remain readable.
+cryptic; functional controls, exact values, source freshness and replay status remain readable.
 
 ## Pass 4 — direct the performance
 
-Build a score in seconds. Read choreography.md. Use independent phase offsets
+Build motion around source events. Read choreography.md. Use independent visual phases
 inside one timeline: counter-rotation, slow precession, streaming traces, scanning
 cross-sections, load waves, mechanical opening, and a climactic transmission.
 
-Stage anticipation → transformation → release → recovery. A material-colored
+Map observed pending work → transformation → output → retained history. A material-colored
 light change alone is too weak for the main event. Change geometry, topology,
-depth, composition, or flow direction. Opening at a developed frame avoids a dead
-intro. Idle-looking moments are a defect for this brief.
+depth, composition, or flow direction. A labeled recorded busy interval can demonstrate the design immediately.
+Actual source silence must remain visible; do not fill it with invented work.
 
 ## Pass 5 — render / critique / repair
 
-Capture opening, build, peak, and recovery at desktop and portrait. Watch 10–24
-seconds of actual motion. List the three most consequential visual weaknesses.
+Capture a representative real busy interval and quiet/stale states at desktop
+and portrait. Watch the actual event-driven sequence. List the three most consequential visual weaknesses.
 Make targeted changes, then capture again. Do not spend the final pass only fixing
 tests while accepting weak art direction.
 

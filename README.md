@@ -2,29 +2,40 @@
 
 **Make a screen that looks expensive enough to require its own power station.**
 
-An open-source Agent Skill for continuously animated, extravagantly overproduced
-dashboards. Finance, trading, science, infrastructure, agents, or pure fiction.
-The purpose is sensory spectacle: monumental forms, intricate detail, connected
-motion, optical effects, and recurring transformations that make people keep watching.
+An open-source Agent Skill for useful, extravagantly visual dashboards of **real
+activity**: finance, trading, science, infrastructure and agent systems.
 
-Agents are optional. Useful information is optional. **Apparent purpose is essential.**
-The display should feel like it is comparing, inspecting, routing and producing
-results. Identifiable work and visible consequences give the spectacle its meaning.
+**Exaggerate the visuals. Preserve the facts.** Find high-traffic flows, expose real
+transformations, and make them spectacular through geometry, scale, depth and
+connected motion. Every operational packet, decision and outcome must correspond
+to observed data. No invented activity, fake progress or fabricated useful-looking
+pipelines. Agents are optional; usefulness and source fidelity are required.
 
-## Latest direction: work you can follow
+## Current direction: real work, amplified
 
-ABYSS now processes fictional orders through venue comparison, risk checks,
-routing, partial fills and settlement. IDs persist between views; rejecting an
-order or blocking a venue changes the outcome. The machinery responds to that work.
+Start with a traffic audit and a useful question. Select a rich observed flow,
+map its events to dramatic visuals, and retain exact values and provenance for
+inspection. Use explicit aggregation, history windows and labeled replay to show
+volume. Quiet sources stay quiet; disconnected sources show their actual status.
 
-![ABYSS — actual simulated order processing](docs/abyss-work.gif)
+[Real-work guide](skills/performative-larping-dashboards/references/real-work.md) ·
+[Skill entrypoint](skills/performative-larping-dashboards/SKILL.md)
 
-[Run ABYSS](examples/abyss) · [Still](docs/abyss-work.png) ·
-[Apparent-work guidance](skills/performative-larping-dashboards/references/apparent-work.md)
+## Legacy synthetic studies
 
-Earlier examples below emphasize geometric spectacle. They remain useful rendering
-studies, but the user's feedback exposed their lack of apparent productive activity.
-The current skill requires both qualities.
+**The examples currently in this repo are synthetic visual studies. None is a
+validated real-data dashboard under the current requirement.** They preserve
+rendering and interaction techniques, not a template for inventing telemetry.
+The real-data source contract and acceptance rules are documented; a compliant
+source-connected reference implementation has not yet been built or tested.
+
+ABYSS models fictional orders through risk, routing, fills and settlement. Its
+persistent identities improved apparent activity, but simulated continuity does
+not satisfy the current real-work requirement.
+
+![ABYSS — legacy synthetic order simulation](docs/abyss-work.gif)
+
+[Run the synthetic study](examples/abyss) · [Still](docs/abyss-work.png)
 
 ![Xenolith — actual browser playback](docs/xenolith-loop.gif)
 
@@ -47,17 +58,17 @@ It is a skill, not an MCP server. Loading it does not install tools or publish a
 
 Example request:
 
-> Use performative-larping-dashboards to make a fictional trading terminal.
-> A monumental liquidity canyon, impossibly dense instrumentation, cascading
-> price ribbons, and a recurring market shock that physically transforms the scene.
-> Go all in on visual spectacle. Include desktop and portrait compositions.
+> Use performative-larping-dashboards to visualize our existing request traces.
+> Identify the busiest flows and show real fan-out, queueing, retries and completion
+> as an extravagant spatial pipeline. Make bottlenecks and individual traces
+> inspectable. Preserve source truth, including quiet and disconnected states.
 
 ## What the skill supplies
 
-- A **shot-first production workflow**, from silhouette and materials to fine
+- A **source-first production workflow**, from silhouette and materials to fine
   geometry, instruments, motion, and rendered critique.
-- An **apparent-work model**: persistent inputs, decisions, handoffs, partial results
-  and consequences drive the animation rather than unrelated decorative effects.
+- A **real-work contract**: observed inputs, decisions, handoffs, partial results
+  and consequences drive animation, with provenance and explicit aggregation.
 - A **maintained recommendation sheet** for HTML, React, native, 3D assets, and film export.
 - **Domain-to-spectacle recipes** that avoid turning every subject into agent circles.
 - **Rendering techniques** for dense assemblies, GPU fields, optics, and attached labels.
@@ -74,7 +85,7 @@ tested combinations from documented recommendations. The
 and [visual gates](skills/performative-larping-dashboards/references/quality.md) define
 the production standard.
 
-## Run the exhibits
+## Run the legacy synthetic exhibits
 
 ```sh
 cd examples/xenolith
@@ -114,10 +125,11 @@ loss, and a full-cycle recording. Evidence goes to ignored `test-results/`.
 See [verification and visual review](docs/validation.md) for actual observations,
 renderer/performance, and limitations.
 
-The [independent evaluation record](docs/evaluation/README.md) preserves a failed
+The legacy [independent evaluation record](docs/evaluation/README.md) preserves a failed
 finance draft, the skill changes it prompted, the improved result, and a fresh
 weather exercise. Runnable source snapshots live under `evals/`. Visual review
-and functional checks are reported separately.
+and functional checks are reported separately. These tests did not validate real
+source integration or compliance with the current real-work requirement.
 
 The earlier [Bureau example](examples/bureau) remains available as a lightweight
 prototype. It is **not the current spectacle benchmark**.

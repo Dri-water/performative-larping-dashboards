@@ -1,4 +1,4 @@
 interface:
   display_name: "Performative Larping Dashboards"
-  short_description: "Cinematic dashboards built for sensory spectacle"
-  default_prompt: "Use $performative-larping-dashboards to turn my subject into a continuously animated Hollywood-scale visual set piece. Optimize for awe, intricate detail, and sensory spectacle."
+  short_description: "Real activity rendered as cinematic spectacle"
+  default_prompt: "Use $performative-larping-dashboards to discover high-traffic real flows and build a useful cinematic dashboard. Exaggerate the visuals, preserve the facts, and never invent activity."
