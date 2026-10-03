@@ -42,8 +42,12 @@ tradeoffs. A smaller renderer budget must preserve the spectacle concept.
 
 ## Produce the shot before the dashboard
 
-Read [the construction playbook](references/construction.md). Build and **render**
-the dominant composition before adding navigation or a grid of widgets. A successful
+Read [the construction playbook](references/construction.md) and use
+the [full-intensity preset](references/full-intensity.md) for an unrestricted
+spectacle brief: declare a monumental hero and several substantial secondary
+systems before implementation. A large but sparse 3D scene is still insufficient.
+Build and **render** the dominant composition before adding navigation or a grid
+of widgets. A successful
 first shot already has scale, silhouette, material contrast, and foreground /
 midground / background. Hide the HUD: it should still look like a film asset.
 
@@ -64,6 +68,9 @@ Available implementation aids:
 
 - [Rendering recipes](references/rendering.md): material / bloom pipeline, dense
   geometry, GPU fields, projection, camera, and common failure repairs.
+- [Optics helper](assets/optics.mjs): copy into a Three.js project for a PMREM
+  environment, directional light, bloom, and output pipeline. Adapt the palette;
+  the helper supplies physical visibility, not the subject or layout.
 - [Director module](assets/director.mjs): reusable seeded randomness, envelopes,
   pause/seek clock, and an adaptable 24-second example score. Copy and replace its
   subject-specific names/events; it is not a mandatory agent ontology.

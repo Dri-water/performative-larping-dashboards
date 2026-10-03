@@ -21,6 +21,12 @@ key/rim lights. Use low-intensity environmental fill, one cool direction,
 and a smaller warm contrast where appropriate. Preserve black values in central
 voids; use an unlit dark material for a literal void rather than a shiny sphere.
 
+For a copyable baseline, use [assets/optics.mjs](../assets/optics.mjs) inside the
+target project. It owns the renderer, environment, lights, passes, resize observer,
+and teardown; it imposes neither content nor a clock. Caller-created asset textures
+remain the caller's cleanup responsibility. Its metallic-plane render, resize,
+and idempotent disposal have been exercised against the pinned Three.js baseline.
+
 Render important typography and controls in HTML/SVG above postprocessing.
 Chromatic aberration, scanlines, noise, and lens flare are finishing touches, not
 a substitute for geometry. Avoid full-frame blur that destroys instrument detail.

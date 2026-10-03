@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "pausePixelEquality": true,
+  "seekPixelEquality": true,
+  "scenario": true,
+  "rupture": true,
+  "noHorizontalOverflow": true,
+  "reducedMotionPaused": true,
+  "playback": {
+    "wallSeconds": 21,
+    "start": 0,
+    "end": 21.00290000001238,
+    "simulatedSeconds": 21.00290000001238
+  },
+  "browser": "154.0.4258.53"
+}

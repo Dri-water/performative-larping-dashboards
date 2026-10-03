@@ -43,6 +43,7 @@ Example request:
 - **Domain-to-spectacle recipes** that avoid turning every subject into agent circles.
 - **Rendering techniques** for dense assemblies, GPU fields, optics, and attached labels.
 - A **reusable director module** for deterministic time, phase envelopes, and seeking.
+- A **full-intensity recipe and optics starter** to prevent sparse, underlit first drafts.
 - A **capture script** for desktop/portrait frames and live playback.
 - **Visual rejection gates**: a small 3D ornament in a conventional dashboard fails,
   even if its tests pass.
@@ -94,6 +95,11 @@ loss, and a full-cycle recording. Evidence goes to ignored `test-results/`.
 See [verification and visual review](docs/validation.md) for actual observations,
 renderer/performance, and limitations.
 
+The [independent evaluation record](docs/evaluation/README.md) preserves a failed
+finance draft, the skill changes it prompted, the improved result, and a fresh
+weather exercise. Runnable source snapshots live under `evals/`. Visual review
+and functional checks are reported separately.
+
 The earlier [Bureau example](examples/bureau) remains available as a lightweight
 prototype. It is **not the current spectacle benchmark**.
 
@@ -105,10 +111,14 @@ skills/performative-larping-dashboards/
   agents/openai.yaml
   references/
   assets/director.mjs
+  assets/optics.mjs
   scripts/capture.mjs
 examples/
   xenolith/
   bureau/
+evals/
+  abyss/
+  vesper/
 docs/
 LICENSE
 CONTRIBUTING.md

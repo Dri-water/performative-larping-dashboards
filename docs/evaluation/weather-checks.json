@@ -1,0 +1,235 @@
+{
+  "checks": {
+    "desktopPausePixels": true,
+    "desktopSeekPixels": true,
+    "desktopThermal": true,
+    "desktopThermalPixels": true,
+    "desktopEvent": true,
+    "desktopPauseClock": true,
+    "desktopResume": true,
+    "desktopViewportOverflow": true,
+    "portraitPausePixels": true,
+    "portraitSeekPixels": true,
+    "portraitThermal": true,
+    "portraitThermalPixels": true,
+    "portraitEvent": true,
+    "portraitPauseClock": true,
+    "portraitResume": true,
+    "portraitViewportOverflow": true,
+    "reduced": {
+      "time": 12,
+      "paused": true
+    }
+  },
+  "errors": [],
+  "playbackSamples": [
+    {
+      "time": 1.9411000000029799,
+      "paused": false,
+      "thermal": false,
+      "frames": 19,
+      "phase": "01 / FIELD ACQUISITION",
+      "open": 0,
+      "renderer": {
+        "frame": 349,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 22.173684211938006
+    },
+    {
+      "time": 5.5577000000029795,
+      "paused": false,
+      "thermal": false,
+      "frames": 41,
+      "phase": "01 / FIELD ACQUISITION",
+      "open": 0,
+      "renderer": {
+        "frame": 679,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 13.617073172112791
+    },
+    {
+      "time": 8.924100000002976,
+      "paused": false,
+      "thermal": false,
+      "frames": 63,
+      "phase": "02 / PRESSURE COLLAPSE",
+      "open": 0.6260095364885322,
+      "renderer": {
+        "frame": 1009,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 10.685714285761591
+    },
+    {
+      "time": 12.057300000002975,
+      "paused": false,
+      "thermal": false,
+      "frames": 84,
+      "phase": "03 / EYEWALL DISSECTION",
+      "open": 1,
+      "renderer": {
+        "frame": 1324,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 9.069047619721719
+    },
+    {
+      "time": 15.173900000002979,
+      "paused": false,
+      "thermal": false,
+      "frames": 105,
+      "phase": "03 / EYEWALL DISSECTION",
+      "open": 1,
+      "renderer": {
+        "frame": 1639,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 8.113333333957764
+    },
+    {
+      "time": 18.24040000000298,
+      "paused": false,
+      "thermal": false,
+      "frames": 126,
+      "phase": "04 / ATMOSPHERIC RECOVERY",
+      "open": 0.6858418218073031,
+      "renderer": {
+        "frame": 1954,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 7.450793651716103
+    },
+    {
+      "time": 21.357000000002962,
+      "paused": false,
+      "thermal": false,
+      "frames": 148,
+      "phase": "04 / ATMOSPHERIC RECOVERY",
+      "open": 0.03199253049045725,
+      "renderer": {
+        "frame": 2284,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 6.936486487050314
+    },
+    {
+      "time": 24.456900000002953,
+      "paused": false,
+      "thermal": false,
+      "frames": 169,
+      "phase": "01 / FIELD ACQUISITION",
+      "open": 0,
+      "renderer": {
+        "frame": 2599,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 6.635502958879668
+    },
+    {
+      "time": 27.790100000002944,
+      "paused": false,
+      "thermal": false,
+      "frames": 191,
+      "phase": "01 / FIELD ACQUISITION",
+      "open": 0,
+      "renderer": {
+        "frame": 2929,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 6.454973822254785
+    },
+    {
+      "time": 30.873300000002928,
+      "paused": false,
+      "thermal": false,
+      "frames": 212,
+      "phase": "02 / PRESSURE COLLAPSE",
+      "open": 0.08086195049911447,
+      "renderer": {
+        "frame": 3244,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 6.256603773894175
+    },
+    {
+      "time": 34.256500000002944,
+      "paused": false,
+      "thermal": false,
+      "frames": 235,
+      "phase": "03 / EYEWALL DISSECTION",
+      "open": 0.9402409466064473,
+      "renderer": {
+        "frame": 3589,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 6.07446808536002
+    },
+    {
+      "time": 37.53970000000295,
+      "paused": false,
+      "thermal": false,
+      "frames": 258,
+      "phase": "03 / EYEWALL DISSECTION",
+      "open": 1,
+      "renderer": {
+        "frame": 3934,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 4.605000000322859
+    },
+    {
+      "time": 40.60630000000297,
+      "paused": false,
+      "thermal": false,
+      "frames": 280,
+      "phase": "03 / EYEWALL DISSECTION",
+      "open": 0.9714303563149804,
+      "renderer": {
+        "frame": 4264,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      },
+      "meanFrameWork": 4.379583333494763
+    }
+  ]
+}

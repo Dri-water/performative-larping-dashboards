@@ -1,0 +1,8 @@
+{
+  "vendor": "Google Inc. (Google)",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "seconds": 5.116399999999997,
+  "frames": 39,
+  "fps": 7.6225471034321055,
+  "meanSubmissionMs": 9.051923076693829
+}

@@ -107,8 +107,10 @@ the example verifier records the renderer actually used for its performance run.
 
 ## Limits
 
-- This is one author's implementation and one finance transfer study, not a
-  controlled, independent multi-model benchmark of skill reliability.
+- The primary examples are one author's implementations. Separate fresh-context
+  finance and weather exercises, including a failed first attempt and the changes
+  it prompted, are recorded in the [independent evaluation](evaluation/README.md).
+  These are limited transfer exercises, not a statistical multi-model benchmark.
 - No Safari, Firefox, physical mobile GPU, native, Blender, or Remotion integration
   was tested. Those recipes remain documented recommendations.
 - Context-loss fallback is tested; automatic GPU-context restoration is not implemented.
