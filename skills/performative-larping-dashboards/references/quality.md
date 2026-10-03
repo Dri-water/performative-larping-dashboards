@@ -6,6 +6,13 @@ can certify subjective quality or guarantee an audience reaction.
 
 ## Gates that cannot be averaged away
 
+**0. The apparent-work gate.** In a silent sequence, can you identify something
+arriving, being evaluated/transformed, and producing a consequence? Follow one
+identity across views and inspect the result it leaves behind. The viewer need
+not understand the domain, but should infer the verbs. Random telemetry, perpetual
+spinners and decorative particle motion cannot pass this gate. See
+[apparent work](apparent-work.md). A hero-only screenshot cannot establish this.
+
 **1. The silhouette gate.** Hide all copy. Does this still look like a designed,
 expensive visual object or environment? A small primitive, a stock chart grid,
 or a generic glowing ring fails. There must be recognizable authored form.

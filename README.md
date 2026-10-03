@@ -7,7 +7,24 @@ dashboards. Finance, trading, science, infrastructure, agents, or pure fiction.
 The purpose is sensory spectacle: monumental forms, intricate detail, connected
 motion, optical effects, and recurring transformations that make people keep watching.
 
-Agents are optional. Useful information is optional. The visual experience is the product.
+Agents are optional. Useful information is optional. **Apparent purpose is essential.**
+The display should feel like it is comparing, inspecting, routing and producing
+results. Identifiable work and visible consequences give the spectacle its meaning.
+
+## Latest direction: work you can follow
+
+ABYSS now processes fictional orders through venue comparison, risk checks,
+routing, partial fills and settlement. IDs persist between views; rejecting an
+order or blocking a venue changes the outcome. The machinery responds to that work.
+
+![ABYSS — actual simulated order processing](docs/abyss-work.gif)
+
+[Run ABYSS](examples/abyss) · [Still](docs/abyss-work.png) ·
+[Apparent-work guidance](skills/performative-larping-dashboards/references/apparent-work.md)
+
+Earlier examples below emphasize geometric spectacle. They remain useful rendering
+studies, but the user's feedback exposed their lack of apparent productive activity.
+The current skill requires both qualities.
 
 ![Xenolith — actual browser playback](docs/xenolith-loop.gif)
 
@@ -39,6 +56,8 @@ Example request:
 
 - A **shot-first production workflow**, from silhouette and materials to fine
   geometry, instruments, motion, and rendered critique.
+- An **apparent-work model**: persistent inputs, decisions, handoffs, partial results
+  and consequences drive the animation rather than unrelated decorative effects.
 - A **maintained recommendation sheet** for HTML, React, native, 3D assets, and film export.
 - **Domain-to-spectacle recipes** that avoid turning every subject into agent circles.
 - **Rendering techniques** for dense assemblies, GPU fields, optics, and attached labels.
@@ -114,6 +133,7 @@ skills/performative-larping-dashboards/
   assets/optics.mjs
   scripts/capture.mjs
 examples/
+  abyss/
   xenolith/
   bureau/
 evals/

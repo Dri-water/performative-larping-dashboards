@@ -1,0 +1,314 @@
+.panel {
+  position: absolute;
+  background: linear-gradient(100deg, #041019eb, #05111b99);
+  border-top: 1px solid #477180;
+  padding: 12px 14px;
+  width: 255px;
+  font-size: 11px;
+  backdrop-filter: blur(6px);
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: #8eacb8;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.eyebrow em {
+  font-style: normal;
+  color: #91d8cf;
+  letter-spacing: 0;
+  font-size: 8px;
+}
+.intake {
+  left: 36px;
+  top: 280px;
+}
+.routing {
+  right: 36px;
+  top: 155px;
+  width: 265px;
+}
+.receipts {
+  right: 36px;
+  top: 390px;
+  width: 265px;
+}
+.ticket,
+.receipt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  padding: 10px 0;
+  border-bottom: 1px solid #2d475555;
+}
+.ticket small,
+.receipt small {
+  grid-column: span 2;
+  letter-spacing: 0.4px;
+  font-size: 9px;
+}
+.ticket span,
+.receipt span {
+  text-align: right;
+  color: #9be9df;
+}
+.ticket .sell,
+.denied span {
+  color: #efaf7c;
+}
+.denied small {
+  color: #ed8976;
+}
+.venue {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 5px;
+  border-bottom: 1px solid #2d4755;
+  overflow: hidden;
+}
+.venue i {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #527f94;
+}
+.venue.chosen {
+  color: #bdf3ea;
+  background: #34606833;
+}
+.venue.chosen i {
+  background: #9ee4d4;
+}
+.venue.blocked {
+  color: #eb8d79;
+}
+.venue.blocked i {
+  background: #ab514d;
+}
+.decision {
+  color: #e7b679;
+  line-height: 1.6;
+  font-size: 10px;
+  min-height: 48px;
+  padding-top: 10px;
+}
+#route-focus {
+  font-size: 11px;
+  color: #c5e7ed;
+}
+.pipeline {
+  position: absolute;
+  bottom: 85px;
+  left: 36px;
+  right: 36px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background: #040e18ed;
+  border: 1px solid #355564;
+}
+.process {
+  padding: 12px;
+  border-right: 1px solid #33546466;
+  min-width: 0;
+}
+.process .eyebrow {
+  margin-bottom: 8px;
+  letter-spacing: 0.4px;
+  font-size: 9px;
+}
+.process b {
+  color: #f2c48d;
+}
+.work-id {
+  color: #577380;
+  font-size: 12px;
+}
+.active .work-id {
+  color: #e6f1eb;
+}
+.meter {
+  height: 3px;
+  background: #18343f;
+  margin: 9px 0;
+}
+.meter i {
+  display: block;
+  height: 100%;
+  background: #d9ad7e;
+}
+.process small {
+  font-size: 8px;
+  letter-spacing: 0;
+  color: #789ba9;
+  white-space: nowrap;
+}
+.active small {
+  color: #abc3cc;
+}
+.bottom {
+  bottom: 210px;
+}
+.bottom .sub {
+  font-size: 9px;
+}
+.event {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.chart {
+  width: 160px;
+  height: 50px;
+}
+.title {
+  top: 145px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.title b {
+  font-size: 42px;
+}
+.projection {
+  pointer-events: none;
+}
+.projection > div {
+  position: absolute;
+  transform: translate(-50%, -150%);
+  font-size: 8px;
+  color: #547681;
+  border-left: 1px solid #4f7887;
+  padding: 5px;
+  background: #04131bae;
+  min-width: 82px;
+}
+.projection b {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+.projection span {
+  display: block;
+  margin-top: 5px;
+}
+.projection .busy {
+  color: #c6e5ec;
+  border-color: #e6bd80;
+}
+.hero .projection {
+  display: none;
+}
+@media (max-width: 600px) {
+  .title {
+    top: 112px;
+    left: 20px;
+  }
+  .title b {
+    font-size: 30px;
+  }
+  .panel {
+    width: 158px;
+    padding: 8px;
+    font-size: 8px;
+  }
+  .intake {
+    top: 211px;
+    left: 16px;
+  }
+  .routing {
+    top: 211px;
+    right: 16px;
+    width: 175px;
+  }
+  .receipts {
+    top: auto;
+    bottom: 300px;
+    right: 16px;
+    width: 175px;
+  }
+  .eyebrow {
+    font-size: 7px;
+    letter-spacing: 0.2px;
+  }
+  .eyebrow em {
+    display: none;
+  }
+  .ticket,
+  .receipt {
+    padding: 7px 0;
+    gap: 5px;
+  }
+  .ticket small,
+  .receipt small {
+    font-size: 7px;
+  }
+  .ticket:nth-child(n + 4),
+  .receipt:nth-child(n + 3) {
+    display: none;
+  }
+  .venue {
+    padding: 8px 3px;
+  }
+  .decision {
+    font-size: 8px;
+    min-height: 44px;
+  }
+  #route-focus {
+    font-size: 8px;
+  }
+  .pipeline {
+    left: 16px;
+    right: 16px;
+    bottom: 100px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .process {
+    padding: 8px;
+  }
+  .process .eyebrow {
+    font-size: 7px;
+  }
+  .process small {
+    font-size: 6px;
+  }
+  .work-id {
+    font-size: 9px;
+  }
+  .meter {
+    margin: 6px 0;
+  }
+  .projection {
+    display: none;
+  }
+  .bottom {
+    bottom: 270px;
+    left: 16px;
+  }
+  .bottom .sub {
+    max-width: 175px;
+    font-size: 7px;
+  }
+  .event {
+    max-width: 170px;
+    font-size: 14px;
+  }
+  .title span {
+    font-size: 9px;
+  }
+  footer {
+    left: 16px;
+    right: 16px;
+    gap: 5px;
+  }
+  footer button,
+  footer select {
+    font-size: 8px;
+    padding: 8px;
+  }
+  footer span {
+    font-size: 7px;
+    margin-top: 2px;
+  }
+}

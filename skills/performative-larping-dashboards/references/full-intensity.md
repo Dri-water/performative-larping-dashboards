@@ -13,6 +13,11 @@ plan **one monumental hero and at least three substantial secondary systems**, p
 fine instrumental texture and optical atmosphere. A secondary system is visually
 substantial, not a tiny status light, another line of text, or more identical dust.
 
+Each system also needs a supposed job, an input/trigger and an observable output.
+Read [apparent work](apparent-work.md). Several impressive objects moving together
+can still feel purposeless. Let comparison, inspection, routing, processing and
+completion produce the visual activity; use atmosphere to support it.
+
 Example financial manifestation:
 
 | System | Physical form | Continuous motion | Climax |

@@ -2,6 +2,10 @@
 
 ## Pass 1 — a shot, not a layout
 
+First name the fictional job and its input → transformation → output. Read
+[apparent work](apparent-work.md). Assign the dominant forms roles in that process;
+the shot should depict an instrument performing work, not merely an impressive object.
+
 Select a spatial metaphor and draw its largest masses first. Set the delivery
 camera/aspect ratio immediately. Block one dominant form, a secondary system
 crossing or interacting with it, distant context, and cropped foreground structure.
@@ -73,6 +77,7 @@ tests while accepting weak art direction.
 | Flat charts around a render | Turn selected data into spatial geometry, projections, ribbons, or sections |
 | Portrait is a cramped thumbnail | Re-stage camera, assemblies, and labels; reduce peripheral text instead of shrinking the hero |
 | Everything moves identically | Separate timescales, phase offsets, directions, and event envelopes |
+| Pretty but seems to do nothing | Trace one input through decisions and visible outputs; drive motion and related views from those events |
 
 Only after these passes should selectors, export buttons, loaders, and documentation
 dominate the work. Test controls as they are added, but never confuse their completion

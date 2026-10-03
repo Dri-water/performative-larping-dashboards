@@ -5,6 +5,13 @@ Evaluators receive a realistic request, the packaged skill, and an isolated outp
 directory. They are instructed not to inspect repository examples or previews.
 Functional correctness and visual ambition are judged separately.
 
+**Subsequent user feedback:** these exercises improved geometric spectacle but
+still felt like decorative effects without apparent useful activity. Their earlier
+visual judgments do not establish that the user's full intent was met. The skill
+now adds an apparent-work gate: identifiable inputs, decisions, linked views and
+observable consequences. The [current ABYSS example](../../examples/abyss) applies
+that correction; the fixtures below preserve the earlier evidence unchanged.
+
 ## First finance attempt — visual failure
 
 Skill baseline: commit `3ad4b21`. Request: an over-the-top fictional financial

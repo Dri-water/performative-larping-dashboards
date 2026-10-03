@@ -4,6 +4,9 @@ Define stateAt(time, seed, scenario) separately from drawing. A given timestamp
 must reconstruct geometry, fields, instruments, camera, and event state. Connect
 layers through a common score. This connection may be fictional: the purpose is
 to make the entire display feel active and coordinated, not to prove agent work.
+Coordination alone is insufficient: use a small event model with persistent work
+objects and state transitions. Read [apparent work](apparent-work.md). A result
+should leave a receipt, changed inventory, revealed feature or other visible trace.
 
 ## Simultaneous motion bands
 

@@ -11,6 +11,9 @@ design for a film's impossible technology: monumental form, intricate surfaces,
 spatial instrumentation, continuous layered activity, and recurring spectacular
 transformations. The subject can be markets, weather, a build queue, agents, or
 invented nonsense. **Agents, mascots, workstations, and realistic utility are optional.**
+Apparent purpose is essential: the viewer should feel that the system is doing
+work. Design visible inputs, decisions, transformations and consequences before
+adding effects. Spectacle comes from dramatizing that fictional activity.
 
 Default ambition is a cinematic set piece. A conventional dashboard with a 3D widget,
 glowing borders, or a particle background does not meet this brief. An isolated
@@ -18,7 +21,8 @@ primitive surrounded by cards fails even when its controls work and tests pass.
 
 ## Establish the visual contract
 
-Read [spectacle direction](references/art-direction.md) and choose a production
+Read [apparent work](references/apparent-work.md) and
+[spectacle direction](references/art-direction.md), then choose a production
 route from [the maintained toolkit](references/toolkit.md). Use the relevant
 [React](references/react.md), [HTML](references/html.md), or
 [native](references/native.md) recipe. Do not load every platform reference.
@@ -28,6 +32,9 @@ Write a compact production brief in the target project:
 - **Subject → impossible physical metaphor.** A trading engine might be a canyon
   of order-book strata, a gravitational liquidity engine, or a cathedral of price
   trajectories. It need not become a spacecraft or agent network.
+- **Supposed job → visible evidence.** Name what enters, what the system does to
+  it, what comes out, and which other view changes as a consequence. Track a few
+  persistent identities; make waits, decisions and results visible.
 - **One-sentence money shot.** Describe the composition, materials, depth, and
   transformation that would make a silent five-second clip worth sharing.
 - **Shape / material / motion vocabulary.** Commit to specific choices beyond
@@ -60,8 +67,10 @@ the headline state and essential controls need to be immediately decipherable.
 
 Read [choreography](references/choreography.md) and stage a continuous performance:
 ambient motion, active processes, instrument sweeps, and a recurring hero event.
-Use a shared clock and state so the spectacle feels connected. Connection can be
-entirely fictional choreography; it need not represent useful business logic.
+Use a shared clock and a small event model so the spectacle feels connected.
+The process may be entirely fictional, but its visible cause and effect should
+be consistent. A packet arrives, a stage reacts, a result appears, and a related
+view changes. Synchronized glow and unrelated number changes are insufficient.
 Never leave the opening idle or depend on clicks to reveal the impressive part.
 
 Available implementation aids:
@@ -86,6 +95,8 @@ Read [the visual gates](references/quality.md). Inspect real rendered frames at
 delivery size, thumbnail size, and multiple times. Watch a continuous sequence.
 Functional tests cannot certify impressiveness. Do not give yourself a passing
 aggregate score that excuses a weak hero or dead motion.
+Also follow one work object through the screen: can a viewer infer what happened
+to it? A gorgeous animated sculpture can still fail the intended dashboard illusion.
 
 If it looks ordinary, change composition, silhouette, scale, material, or event
 staging before adding more glow. Iterate against the specific observed failure.
