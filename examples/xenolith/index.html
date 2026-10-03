@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#03090e" />
+    <title>XENOLITH / Vessel cognition interface</title>
+  </head>
+  <body>
+    <main id="bridge">
+      <div
+        id="world"
+        role="img"
+        aria-label="An immense alien reactor surrounded by articulated machinery, signal conduits, and floating instruments"
+      ></div>
+      <div class="optical-overlay" aria-hidden="true"></div>
+      <svg id="connections" aria-hidden="true"></svg>
+      <header>
+        <a class="insignia" href="#bridge" aria-label="Xenolith bridge">⟁</a>
+        <div class="identity">
+          <p>EXTRASOLAR COGNITION ARRAY <span> / </span> VESSEL 09</p>
+          <h1>XENOLITH<span>非人類</span></h1>
+        </div>
+        <div class="header-center">
+          <span class="signal-dot"></span> NON-HUMAN INTELLIGENCE DETECTED
+          <small>SIMULATED TRANSMISSION · LOCAL EXHIBIT</small>
+        </div>
+        <div class="mission">
+          <span>MISSION ELAPSED</span><strong id="clock">00:00:12.000</strong
+          ><small id="renderer">INITIALIZING OPTICS</small>
+        </div>
+      </header>
+      <div class="coordinate-strip">
+        <span>RA 23h 18m 04.9s <b> / </b> DEC −06° 42′ 18″</span
+        ><span>COGNITION CHAMBER <b>09—Ø</b></span
+        ><span>OBSERVER LINK <b>ESTABLISHED</b></span>
+      </div>
+      <aside class="telemetry left-top">
+        <h2><b>01</b> SIGNAL MORPHOLOGY <span>RX</span></h2>
+        <div class="metric">
+          <strong id="coherence">96.4</strong
+          ><span>%<small>PHASE COHERENCE</small></span>
+        </div>
+        <svg
+          id="wave"
+          viewBox="0 0 260 82"
+          aria-label="Simulated signal waveform"
+        ></svg>
+        <div class="micro-row">
+          <span>∿ 71.04 THz</span><span>LOCK / <b id="lock">06</b></span>
+        </div>
+        <div class="ruler"></div>
+        <p class="micro-copy">
+          ORIGIN: UNRESOLVED<br />SEMANTIC CONTENT: APPROACHING
+        </p>
+      </aside>
+      <aside class="telemetry right-top">
+        <h2><b>02</b> CAUSAL TOMOGRAPHY <span>3D</span></h2>
+        <svg
+          id="tomography"
+          viewBox="0 0 250 125"
+          aria-label="Causal topology projection"
+        ></svg>
+        <div class="micro-row">
+          <span>BRANCHES <b>4,096</b></span
+          ><span>DEPTH <b>∞</b></span>
+        </div>
+        <div class="matrix" id="matrix"></div>
+      </aside>
+      <div class="scene-caption">
+        <span>NOT A SIGNAL.</span><strong>A thought arriving.</strong>
+        <p>COGNITION ENGINE / CONTAINMENT VOLUME 04</p>
+      </div>
+      <div id="stations" aria-label="Cognitive stations"></div>
+      <aside class="telemetry left-bottom">
+        <h2><b>03</b> AGENT UPLINK <span id="station-code">SYN</span></h2>
+        <div class="station-detail">
+          <span id="station-number">03</span>
+          <div>
+            <h3 id="station-name">ORISON</h3>
+            <p id="station-role">consensus lattice</p>
+          </div>
+        </div>
+        <div id="channels"></div>
+        <p id="station-status">Consensus field converging</p>
+      </aside>
+      <aside class="telemetry right-bottom">
+        <h2><b>04</b> EVENT HORIZON <span>TRACE</span></h2>
+        <div id="events"></div>
+        <div class="transit">
+          <span>SUCCESSFUL TRANSMISSIONS</span
+          ><strong id="completed">0000</strong>
+        </div>
+      </aside>
+      <section class="reactor-state">
+        <div class="state-caption">
+          <span>VESSEL STATE</span>
+          <h2 id="phase">IGNITION</h2>
+          <span id="event-label">Causal solution committed</span>
+        </div>
+        <div class="energy">
+          <span>CORE EXCITATION</span
+          ><strong><b id="energy">91.0</b><small> EU</small></strong>
+          <div id="energy-bars"></div>
+        </div>
+      </section>
+      <section class="timeline">
+        <span>SEQUENCE <b id="cycle">001</b></span>
+        <div id="beats">
+          <i>ACQUIRE</i><i>RECONSTRUCT</i><i>CONVERGE</i><i>IGNITION</i
+          ><i>TRANSMIT</i><i>RECOVER</i>
+        </div>
+        <span id="countdown">12.0 / 24s</span>
+      </section>
+      <footer>
+        <div class="control-group">
+          <label for="scenario">SCENARIO</label
+          ><select id="scenario">
+            <option value="contact">First contact</option>
+            <option value="storm">Causal storm</option>
+            <option value="silent">Silent running</option></select
+          ><button id="pause">Pause</button
+          ><button id="climax">Ignite core</button
+          ><button id="capture">Freeze frame</button>
+        </div>
+        <div class="footer-note">
+          <span id="play-state">RUNNING</span><b>PLD / EXHIBIT 002</b
+          ><span>FICTIONAL TELEMETRY · NO EXTERNAL ACTIONS</span>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

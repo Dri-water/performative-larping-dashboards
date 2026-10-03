@@ -1,7 +1,7 @@
 # HTML / vanilla route
 
 Default: Vite + pinned Three.js, plain HTML/CSS instrument layout, SVG chart marks,
-and explicit time-based animation. The Bureau example exercises this route.
+and explicit time-based animation. The Xenolith example exercises this route.
 GSAP is the preferred addition for a complicated authored timeline; seek it from
 the shared clock rather than introducing a second independent timeline.
 
@@ -17,3 +17,8 @@ Deliver semantic controls, keyboard-visible focus, a pause button, reduced motio
 and an explicit graphics fallback. Test that labels do not overflow at phone widths.
 Use an SVG layer for paths and labels when no actual depth is needed; reserve WebGL
 for sculptural forms, occlusion, lighting, and three-dimensional relationships.
+
+Read construction.md and rendering.md before treating this stack as a layout.
+The canvas can own the whole viewport; instruments layer into the world. Ordinary
+HTML does not imply ordinary dashboard cards. The legacy Bureau is retained as a
+working early example, not the current spectacle benchmark.

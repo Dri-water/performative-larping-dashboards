@@ -7,7 +7,8 @@ actual named device. Never infer the last two from the first.
 
 | Job | Preferred tool | What it contributes | Evidence / fallback |
 |---|---|---|---|
-| Vanilla browser exhibit | [Three.js](https://threejs.org/docs/) + Vite + HTML/SVG | Procedural 3D, orbital machinery, particles; editable labels | Example-tested in Bureau; SVG static hero when WebGL unavailable |
+| Vanilla browser exhibit | [Three.js](https://threejs.org/docs/) + Vite + HTML/SVG | Procedural environments, dense assemblies, GPU fields; crisp overlays | Example-tested in Xenolith; SVG static composition when WebGL unavailable |
+| Cinematic optics | Three.js EffectComposer + UnrealBloomPass + OutputPass | Controlled emissive bloom and output conversion | Example-tested in Xenolith; unprocessed scene loses optical finish |
 | React exhibit | [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction) + [Drei](https://drei.docs.pmnd.rs/) + Three.js | Declarative 3D, helpers, model loading | Documented; vanilla Three.js loses React scene composition |
 | React UI choreography | [Motion](https://motion.dev/docs/react) | Layout transitions, gestures, staged UI | Documented; shared-clock CSS/SVG loses gesture convenience |
 | Vanilla timeline | [GSAP](https://gsap.com/docs/v3/) | Sequenced DOM/SVG/camera motion | Documented; explicit time functions are the reference example default |
@@ -25,7 +26,7 @@ actual named device. Never infer the last two from the first.
 ## Version policy
 
 The runnable baseline is Three.js 0.186.1, Vite 8.3.2, Playwright 1.63.0, Node
-24.14.1, with `examples/bureau/package-lock.json` authoritative for resolved packages.
+24.14.1, with `examples/xenolith/package-lock.json` authoritative for resolved packages.
 Other rows are recommendations, not a claim of tested combinations. Resolve supported
 stable versions when creating a new project and commit its lockfile. Never copy a
 `latest` CDN URL into a reproducibility-sensitive deliverable.

@@ -35,5 +35,5 @@ For true 3D choose a maintained platform renderer only after a device spike prov
 asset loading, shading, and lifecycle behavior; otherwise use the documented WebView
 route. Do not promise identical shader libraries across engines.
 
-In all routes retain the simulation schema, causal sequence, character identities,
+In all routes retain the simulation schema, performance score, visual identities,
 and visual hierarchy. Port the design intent, not browser API calls.

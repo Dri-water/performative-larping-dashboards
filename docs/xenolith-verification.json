@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-03T11:28:52.185Z",
+  "captures": [
+    {
+      "name": "opening",
+      "time": 0
+    },
+    {
+      "name": "build",
+      "time": 8
+    },
+    {
+      "name": "climax",
+      "time": 12
+    },
+    {
+      "name": "release",
+      "time": 17
+    },
+    {
+      "name": "recovery",
+      "time": 22
+    }
+  ],
+  "performance": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "frames": 1448,
+    "render": {
+      "calls": 301,
+      "triangles": 104650,
+      "points": 11100
+    },
+    "samples": 180,
+    "meanFrameWorkMs": 1.9844444432192379,
+    "meanFrameIntervalMs": 16.666111111111118
+  },
+  "checks": [
+    "director state/clock",
+    "WebGL and shader errors",
+    "five phase captures",
+    "pixel-stable pause",
+    "pixel-stable seek",
+    "station selection",
+    "scenario",
+    "resume",
+    "climax",
+    "freeze URL",
+    "portrait fit and label collisions",
+    "reduced motion",
+    "SVG fallback",
+    "actual context loss",
+    "full 24-second live cycle"
+  ]
+}

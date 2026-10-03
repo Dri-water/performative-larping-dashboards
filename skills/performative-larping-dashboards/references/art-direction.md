@@ -1,51 +1,83 @@
-# Art direction: go unreasonably hard
+# Spectacle direction
 
-The machine should look expensive to operate and wildly disproportionate to its job.
-Choose a world with a specific physical logic. Keep functional affordances obvious.
+The product is the experience of witnessing impossibly powerful technology.
+Usefulness may be incidental. Optimize for an arresting silhouette, depth,
+technical intricacy, compelling motion, and the promise that there is always more
+to see. Excess is the brief; visual hierarchy makes the excess land.
 
-## Worlds, not palette swaps
+## Translate subjects into worlds
 
-| World | Hero | Agents | Detail vocabulary | Motion identity |
-|---|---|---|---|---|
-| Bureau of Unnecessary Intelligence | Suspended gyroscopic oracle | Ceramic inspectors orbiting brass stations | Queue ribbons, etched serials, receipts, accreditation seals | Deliberate mechanical rotation, flying dossiers |
-| Midnight infrastructure chapel | Cathedral-sized scheduler bell | Sleepy maintenance creatures | Stained-glass heatmaps, candle-like signal towers, shift ledger | Slow pendulums and precise dispatch bursts |
-| Probability conservatory | Glass biome containing a branching decision tree | Botanist drones | Condensation, specimen tags, pollen packets, root graphs | Organic growth, fluid travel, quiet leaf shimmer |
-| Abyssal arbitrage observatory | Bathysphere full of impossible instruments | Bioluminescent analysts | Sonar, pressure fields, depth labels, cable bundles | Buoyant movement and coherent current streams |
-| Porcelain computation salon | Exploded clockwork teapot | Tiny gilded clerks | Engraving, ivory paper, blue ink, charts as dial faces | Clockwork indexing, steam as signal flow |
+These are divergent prompts, not skins for the same reactor layout:
 
-These are starting points. Invent a fresh object for the user's subject. Do not
-reuse a glowing sphere every time or reproduce an example's layout with new labels.
+| Subject | Spatial concept | Signature spectacle | Peripheral texture |
+|---|---|---|---|
+| Trading / liquidity | Canyon carved from order-book layers | Buy/sell walls shear apart as a torrent of trades bends through the spread | Ladder fragments, liquidation shockfronts, price ribbons, depth contours |
+| Finance / portfolio | Suspended gravitational system of exposures | Correlated assets pull a risk membrane into a singularity, then release it | Yield meshes, covariance constellations, rotating sector strata |
+| Science / weather | Colossal transparent specimen chamber | A volumetric storm folds through moving cross-section planes | Field vectors, spectral waterfalls, scanning reticles, trajectory swarms |
+| Infrastructure | City-sized cathedral of computation | Traffic surges through conduits and physically reconfigures a gate | Rack silhouettes, cable bundles, route maps, diagnostic glyphs |
+| Agent activity | Impossible cognition apparatus | Signals converge, machinery unlocks, and an output wave crosses the system | Specialist stations, memory strata, branching traces |
+| Pure fiction | Non-human navigation instrument | Geometry unfolds into a shape that seems to exceed its containment volume | Invented notation, nested coordinates, impossible distance scales |
 
-## Composition grammar
+Choose a shape family with more ambition than sphere + torus + cards: asymmetric
+ribs, suspended membranes, terraced volumes, interlocking blades, articulated
+surfaces, helical looms, folding lattices, fragmented monoliths. Procedural geometry
+is legitimate when it creates a designed assembly. A few unmodified primitives
+do not become authored assets merely by adding bloom.
 
-- The hero gets approximately half the visual attention. Let an orbit or cable
-  break a panel boundary; keep actual text within readable surfaces.
-- Mix one monumental object, a handful of role stations, and dozens of subordinate
-  technical details. Repeated chart cards alone fail the brief.
-- Use two type voices: expressive display typography for identity, compact mono
-  for telemetry. Keep ordinary control labels readable at output size.
-- Give each agent a silhouette before assigning its color: antenna, visor, ring,
-  obelisk, book, cap, articulated arm. Color supplements identity.
-- Make materials disagree productively: ink beside emissive glass, matte porcelain
-  beside polished metal, paper slips beside volumetric-looking projections.
-- Pick a restrained base and several disciplined role colors. Maximalism comes
-  from authored detail and layering, not a rainbow applied to every border.
+## The five reads
 
-## Effects budget
+1. **At thumbnail size:** one startling silhouette and strong light/dark structure.
+2. **At a glance:** a monumental process is happening; the image has scale and depth.
+3. **After a second:** overlapping structures and instruments reveal how it moves.
+4. **After five seconds:** a staged change transforms the composition and redirects attention.
+5. **On inspection:** fittings, marks, traces, engraving, miniatures, and subsidiary
+   motion reward curiosity. Not every label needs to be useful.
 
-Choose a few signature effects and execute them thoroughly: concentric gimbals
-with visibly different axes; tracer packets with destination reactions; occluded
-agents moving behind the hero; depth fog; a refractive vessel; a large mechanical
-gate; a light sweep revealing engraved markings. Bloom is a material accent.
+Do not interpret hierarchy as minimalism. Keep many processes active at once;
+vary contrast, size, rhythm, and position so they form a layered performance.
 
-Keep typography outside postprocessing. Avoid full-frame chromatic aberration,
-unmotivated camera shake, fullscreen flashes, rapid high-contrast pulses, and noise
-that competes with the hero. Reduced motion should show a composed climax.
+## Composition that escapes the dashboard
 
-## Social composition
+The environment owns the viewport. Avoid a masthead, a large blank margin, a
+rectangular hero card, and familiar metric cards underneath. Let scale be implied
+by cropped structures, overlapping depths, near-camera forms, tiny marks,
+and instrumentation attached to parts of the scene.
 
-Design 16:9 and 9:16 as separate stage arrangements sharing scene state. Portrait
-puts identity above the machine, role readouts around/below it, and a short evidence
-strip at the bottom. Preserve breathing room around the focal object. Check at
-phone display size, not only at export resolution. A static screenshot should
-already be compelling; motion is the second reward.
+For a spatial exhibit, begin with the hero spanning roughly 60–85% of the short
+frame dimension, peripheral fields extending past it, and foreground occlusion.
+These are tuning ranges, not acceptance metrics. Use asymmetric mass and depth;
+a perfect front-on mandala can feel flat.
+
+One dominant event should temporarily reorganize the screen: topology unfolds,
+a price canyon fractures, a lens separates into layers, or a scan reveals a
+hidden interior. Background motion continues during this event.
+
+## Materials and light
+
+Use several material behaviors: dark absorptive mass, reflective structure, thin
+emissive traces, and translucent field. Bright lines require dark neighboring
+surfaces. Distinct material response contributes more than indiscriminate glow.
+Use key/rim lighting, atmosphere, occlusion, and fine edge detail to sell scale.
+
+Restrict the brightest values to focal surfaces and traveling highlights. Preserve
+dark voids inside dense compositions. A field of equally bright cyan objects has
+less impact than a dark machine with an almost impossible bright interior.
+
+Type is part of the production design: dimensional identifiers, sparse large
+lettering, narrow technical annotation, numeric scales, and dense incidental
+microtype. Keep essential controls readable; don't impose admin-dashboard
+readability on every decorative screen marking.
+
+## Research without copying
+
+Examine film-screen-graphics case studies, scientific imagery, industrial
+assemblies, architectural sections, and macro material references. Extract a
+specific principle, not a screenshot to imitate. Reference images are not
+licensed output assets by default.
+
+[Territory's Prometheus case study](https://territorystudio.com/project/prometheus/)
+describes combining technical research with influences from art and natural forms.
+[Its Blade Runner 2049 process](https://territorystudio.com/project/blade-runner-2049/)
+ties material experiments and screen motion to the scene's world and story beats.
+The useful lesson is world-specific material and choreography, not a universal
+“Hollywood HUD” font or library.

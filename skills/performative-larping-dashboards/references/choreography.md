@@ -1,54 +1,75 @@
-# One machine, one clock
+# A continuous performance, one clock
 
-Define `stateAt(time, seed, scenario)` separately from drawing. The same time must
-produce the same events, metrics, positions, labels, and chart values. Derive visuals
-from state rather than timers that independently invent activity.
+Define stateAt(time, seed, scenario) separately from drawing. A given timestamp
+must reconstruct geometry, fields, instruments, camera, and event state. Connect
+layers through a common score. This connection may be fictional: the purpose is
+to make the entire display feel active and coordinated, not to prove agent work.
 
-## A 12-second theatrical loop
+## Simultaneous motion bands
 
-| Time | Cause | Visible consequence |
-|---|---|---|
-| 0–2s | Intake arrives | Source station receives a dossier; one queue increments |
-| 2–5s | Specialists inspect | Packets traverse distinct paths; receiving agent reacts |
-| 5–8s | Coordinator commits | Hero aperture rotates; derived instrument readings settle |
-| 8–10s | Output dispatched | Receipt enters ledger; downstream workstation acknowledges |
-| 10–12s | Recovery / handoff | New input builds while prior trails fade into next loop |
+Keep all four bands alive during ordinary playback, with different periods:
 
-Use this as a causal pattern, not a mandatory duration. Keep the first frame useful.
-Do not freeze the whole exhibit for an intro title.
+| Band | Typical period | Examples | Visual priority |
+|---|---|---|---|
+| Environmental | 20–90s | Slow precession, fog drift, parallax, evolving field | Broad, low contrast |
+| Continuous process | 1–8s | Packets, flowing trade ribbons, scanners, moving sections | Several local points of interest |
+| Instrument | 0.3–3s | Trace drawing, changing ladders, counter sweeps, heatmap propagation | Fine, peripheral detail |
+| Hero event | 8–24s cycle | Architecture separates, a field collapses, strata shear, output wave | Temporarily dominant |
 
-## Motion hierarchy
+These ranges are starting points. Avoid synchronized breathing across the whole
+screen. Offset phases, alternate directions, vary path lengths, and overlap
+recovery with the next buildup. “Always doing something” means development across
+the scene, not a single spinner or an occasional number update.
 
-Ambient: slow precession, material sheen, sparse dust; low salience.
-Process: clear packet travel, changing gauges, deliberate agent movement.
-Event: localized aperture response or state transition, once per consequence.
-Inspection: selection ring, camera focus, legible explanation.
+## Example 24-second score
 
-Use phase offsets so the scene breathes. Do not start every pulse on the same beat.
-Keep the hero calm enough for secondary motion to register. Pause every layer from
-one control, including CSS animations, charts, camera, and telemetry. Pausing must
-not accumulate elapsed time and jump on resume. Hidden tabs should not consume a
-full render loop. A capture timestamp overrides wall-clock time everywhere.
+| Time | Dramatic function | Spatial change | Secondary activity |
+|---|---|---|---|
+| 0–4s | Establish / acquire | Field already alive; intake sweeps across scene | Instruments trace, streams flow |
+| 4–8s | Build anticipation | Assemblies align; channels converge | Side fields grow and subdivide |
+| 8–12s | Transform | Containment opens, depth layers separate, topology unfolds | Traffic accelerates into the focal volume |
+| 12–17s | Payoff / release | New path or volume becomes visible; wave leaves the centre | Readouts change in a cascading sequence |
+| 17–24s | Recover / handoff | Machinery settles into a new configuration | Echoes propagate while new input accumulates |
 
-## Data contract
+Adapt every noun to the subject. Trading can shear a liquidity canyon and release
+a trade torrent; a weather display can reveal a rotating storm interior. Agents
+and intake/approval workflows are not required.
 
-```ts
-type ExhibitEvent = {
-  id: string; at: number; source: string; target: string;
-  kind: 'intake' | 'inspect' | 'commit' | 'dispatch';
-  magnitude: number; // simulated, or measured with documented units
-};
-```
+Opening at a developed frame helps the first impression. Do not make the user
+wait for a title card, a slow loader, a click, or an empty intro to see the work.
 
-Calculate summary counts from events. A chart can exaggerate its visual presentation
-but cannot falsely label simulated values as observed. Log entries should refer to
-the same event that animates a packet. For real telemetry show disconnected/stale
-states; never substitute theatrical success when a request fails.
+## Implement the score
 
-## Performance
+The included [director module](../assets/director.mjs) contains deterministic random
+numbers, smooth envelopes, a pause/seek clock, and one example score. Copy/adapt it
+into the target project. Its station names and events belong to the Xenolith demo;
+replace them for finance, weather, or other domains.
 
-Batch repeating 3D marks with instancing or points. Avoid per-frame React state.
-Keep DOM updates at a lower rate than the scene, dispose GPU resources on teardown,
-cap pixel ratio, and measure on the intended device. Reduce particles and expensive
-passes before deleting the primary visual concept. Provide a composed SVG/image
-fallback when the renderer is unavailable.
+Drive motion with time functions instead of incremental “rotate by delta” state
+when reliable seeking matters. An envelope can simultaneously drive aperture
+opening, line intensity, field density, scan reveal, camera offset, and readings.
+Avoid simply animating every property with the same sine wave.
+
+For edited video, use time = frame / fps. For an interactive exhibit, use one
+requestAnimationFrame clock. Seek GSAP/Motion timelines from this source when they
+participate in ongoing machine animation. Interactions may have their own short
+transitions only if pause and frame capture still behave as promised.
+
+## Pause, concealment, and repeatability
+
+Pause all geometry, shaders, camera, particles, SVG, CSS, and data changes together.
+Resume without accumulating paused wall time. Hidden tabs skip expensive drawing
+and resume without a time jump. A fixed timestamp overrides live time everywhere.
+Reduced motion holds a composed climax instead of removing visual detail.
+
+Summary data can derive from staged events; decorative values can be seeded
+functions. Neither should masquerade as real measured activity. In a real-data
+dashboard, show genuine connection/error state separately from theatrical layers.
+
+## Verification
+
+Compare screenshots at the same time before and after arbitrary seeking. Compare
+pixels while paused. Inspect a full cycle, not only one attractive frame. A change
+in timestamp proves the clock runs, not that the motion is dramatic. Record the
+visual transformation seen at the peak and confirm ambient processes continue
+during it. Measure actual frame behavior separately from the artistic judgment.
