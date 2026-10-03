@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performative Larping Dashboards"
+  short_description: "Outrageous dashboards with coherent 3D spectacle"
+  default_prompt: "Use $performative-larping-dashboards to turn my workflow into a wildly elaborate animated control room."

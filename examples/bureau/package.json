@@ -1,0 +1,10 @@
+{
+  "name": "pld-bureau",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "vite --host 127.0.0.1", "build": "vite build", "verify": "node verify.mjs"},
+  "dependencies": {"three": "0.186.1"},
+  "devDependencies": {"vite": "8.3.2", "playwright": "1.63.0"},
+  "engines": {"node": ">=22.12.0"}
+}
